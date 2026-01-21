@@ -16,8 +16,8 @@ $interval = $published->diff( $now );
 $years_old = $interval->y;
 
 if ( $years_old > 0 ) {
-	echo "<p " . get_block_wrapper_attributes() . ">";
-	echo 'Fair warning. This post is more than ' . esc_html( $years_old ) . ' years old. And it is probable that the author would not agree with what is written';
+	echo "<aside " . get_block_wrapper_attributes() . ">";
+	echo 'Fair warning. This post is more than ' . esc_html( $years_old ) . ' years old. And it is probable that the author would not agree with what is written.';
+	echo "</aside><hr/>";
 }
 ?>
-</p>

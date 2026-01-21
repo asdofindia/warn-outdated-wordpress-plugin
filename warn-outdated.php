@@ -3,7 +3,7 @@
  * Plugin Name:       Warn Outdated
  * Plugin URI:        https://learnlearn.in/projects/warn-outdated
  * Description:       Warn readers on old posts
- * Version:           0.1.0
+ * Version:           0.1.1
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Akshay S Dinesh
